@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from './Components/Header';
-import NavBar from './Components/NavBar'
+import Header from './Components/Header/Header';
+import NavBar from './Components/NavBar/NavBar.js'
 import Main from './Components/Main';
-import Copyright from './Components/Copyright';
+import Copyright from './Components/Copyright/Copyright';
 
 class App extends Component {
   render() {

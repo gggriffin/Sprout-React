@@ -1,10 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import SignUp from './Pages/SignUp';
-import Trending from './Pages/Trending';
-import Collaborate from './Pages/Collaborate';
-import Projects from './Pages/Projects';
+import Home from './Pages/Home/Home';
+import Trending from './Pages/Trending/Trend';
+import Collaborate from './Pages/Collaborate/Collaborate';
+import Projects from './Pages/Projects/Projects';
 
 
 function Main() {
@@ -12,8 +11,8 @@ function Main() {
     <Switch>
       <Route exact path='/' component={Home}></Route>
       <Route exact path='/home' component={Home}></Route>
-      <Route exact path='/signup' component={SignUp}></Route>
-      <Route exact path='/trending' component={Trending}></Route>
+{/*       <Route exact path='/signup' component={SignUp}></Route>
+ */}      <Route exact path='/trending' component={Trending}></Route>
       <Route exact path='/collaborate' component={Collaborate}></Route>
       <Route exact path='/projects' component={Projects}></Route>
     </Switch>
