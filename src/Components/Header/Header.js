@@ -1,5 +1,5 @@
 import Image from 'react-bootstrap/Image';
-import 'Header.css';
+import './Header.css';
 
 function Header() {
   return (
