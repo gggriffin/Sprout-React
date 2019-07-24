@@ -1,0 +1,12 @@
+.navBar {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#navLinks {
+  justify-content: right;
+}
+
+#navIcon {
+  padding-left: 5px;
+}
