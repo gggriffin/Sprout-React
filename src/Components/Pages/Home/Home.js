@@ -7,7 +7,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="Home">
-      <body className="Home-body">
+      <div className="Home-body">
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             <Card id="homeMainCard">
@@ -18,7 +18,7 @@ function Home() {
                 <Card.Text>
                   Sprout is a platform for developers to connect and grow together. Stay on top of what is fresh and trending in tech so that you can grow your business, or even just yourself.
                 </Card.Text>
-                <i class="fas fa-seedling" id="mainCardIcon"></i>
+                <i className="fas fa-seedling" id="mainCardIcon"></i>
               </Card.Body>
             </Card>
           </Col>
@@ -61,7 +61,7 @@ function Home() {
             </Card>
           </Col>
         </Row>
-      </body>
+      </div>
     </div>
   );
 }

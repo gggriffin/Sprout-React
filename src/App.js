@@ -4,7 +4,9 @@ import NavBar from './Components/NavBar/NavBar.js'
 import Main from './Components/Main';
 import Copyright from './Components/Copyright/Copyright';
 
+
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
