@@ -8,7 +8,7 @@ import './Trend.css';
 function Trend() {
   return (
     <div className="Trend">
-      <body className="Trend-body">
+      <div className="Trend-body">
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             <Card id="trendMainCard">
@@ -91,7 +91,7 @@ function Trend() {
             </Card>
           </Col>
         </Row>
-      </body>
+      </div>
     </div>
   );
 }

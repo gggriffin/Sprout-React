@@ -3,8 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Trending from './Pages/Trending/Trend';
 import Collaborate from './Pages/Collaborate/Collaborate';
-import Projects from './Pages/Projects/Projects';
-
+/* import Projects from './Pages/Projects/Projects';
+ */
 
 function Main() {
   return (
@@ -14,8 +14,8 @@ function Main() {
 {/*       <Route exact path='/signup' component={SignUp}></Route>
  */}      <Route exact path='/trending' component={Trending}></Route>
       <Route exact path='/collaborate' component={Collaborate}></Route>
-      <Route exact path='/projects' component={Projects}></Route>
-    </Switch>
+{/*       <Route exact path='/projects' component={Projects}></Route>
+ */}    </Switch>
   );
 }
 
