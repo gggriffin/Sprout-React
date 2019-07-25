@@ -1,0 +1,79 @@
+.Proj {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
+}
+
+#projMainCard, #projCard {
+  border: solid 10px #FFFFFF;
+  border-radius: 15px;
+  background-color: #3f3f3f;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+#projMainTitle, #projCardTitle {
+  color: #3AFA62;
+  font-weight: bold;
+}
+
+#projCard {
+  text-align: left;
+}
+
+#projCardTitle {
+  border-bottom: solid 4px #FFFFFF;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1rem;
+  margin-top: 1rem; 
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
+#projIcon {
+  font-size: 4em;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#projDesc {
+  margin-top: 1rem;
+  margin-bottom: .25rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#intermed {
+  color: #FFBE0B;
+}
+
+#begginer {
+  color: #48ACF0;
+}
+
+#gitIcon, #seedIcon {
+  border-radius: 15px;
+  background-color: #3f3f3f;
+  font-size: 4em;
+  float: right;
+  margin-right: .5rem;
+}
+
+#gitIcon {
+  color: #9381ff;
+}
+
+#seedIcon {
+  color: #3AFA62;
+}
