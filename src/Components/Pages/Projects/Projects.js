@@ -44,12 +44,12 @@ function Project() {
                   This is an in-line command app that uses Sequelize to interface between Node.js and MySQL. jQuery is used to help increase the readability of the Javascript code. The application allows the user to directly interface with MySQL from a Node.js server and buy items from a virtual store front. The information is stored in a MySQL database, which allows the data to remain persistent.
                 </p>
                 <h3 id="intermed">Intermediate</h3>
-                <i class="fas fa-seedling" id="seedIcon">
-                  <a href="https://drive.google.com/file/d/1ewEkheW4vO0sjkkJ2ax3VeNAKEK5Ng0Y/view"></a>
-                </i>
-                <i class="devicon-github-plain" id="gitIcon">
-                  <a href="https://github.com/gggriffin/bamazon"></a>
-                </i>
+                <a className="hvr-grow hvr-icon" href="https://drive.google.com/file/d/1ewEkheW4vO0sjkkJ2ax3VeNAKEK5Ng0Y/view" id="seedIcon">
+                  <i class="fas fa-seedling hvr-icon-fade" aria-hidden="true"></i>
+                </a>
+                <a className="hvr-grow hvr-icon" href="https://github.com/gggriffin/bamazon" id="gitIcon">
+                  <i class="devicon-github-plain hvr-icon-fade" aria-hidden="true"></i>
+                </a>
               </Col>
             </Row>
           </Card>
@@ -77,12 +77,12 @@ function Project() {
                   This is an in-line command app that uses Sequelize to interface between Node.js and MySQL. jQuery is used to help inrease the readability of the Javascript code.
                 </p>
                 <h3 id="begginer">Begginer</h3>
-                <i class="fas fa-seedling" id="seedIcon">
-                  <a href="https://drive.google.com/file/d/1ewEkheW4vO0sjkkJ2ax3VeNAKEK5Ng0Y/view"></a>
-                </i>
-                <i class="devicon-github-plain" id="gitIcon">
-                  <a href="https://github.com/gggriffin/bamazon"></a>
-                </i>
+                <a className="hvr-grow hvr-icon" id="seedIcon" href="https://drive.google.com/file/d/1ewEkheW4vO0sjkkJ2ax3VeNAKEK5Ng0Y/view">
+                  <i class="fas fa-seedling hvr-icon-fade" aria-hidden="true"></i>
+                </a>
+                <a className="hvr-grow hvr-icon" id="gitIcon" href="https://github.com/gggriffin/bamazon">
+                  <i class="devicon-github-plain hvr-icon-fade" aria-hidden="true"></i>
+                </a>
               </Col>
             </Row>
           </Card>
